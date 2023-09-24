@@ -1,0 +1,51 @@
+What is Emmet?
+● Difference between a Library and Framework?
+● What is CDN? Why do we use it?
+● Why is React known as React?
+● What is crossorigin in script tag?
+● What is diference between React and ReactDOM
+● What is difference between react.development.js and react.production.js files via CDN?
+● What is async and defer?
+
+
+
+
+
+
+
+
+1.Emmet:
+Emmet is like a magical shortcut for writing HTML and CSS faster. It helps you type less and do more by using abbreviations to generate code.
+For example, instead of writing a full HTML tag like <div></div>, you can just type div and Emmet will expand it for you.
+
+2.Difference between a Library and Framework:
+A library is like a collection of tools or functions that you can use in your code. You call these tools when you need them.
+A framework is like a set of rules and tools that dictate how you should build your entire application. It's more like a blueprint for your project.
+CDN (Content Delivery Network):
+A CDN is like a super-fast internet delivery service for website files. It stores copies of files (like JavaScript, CSS, and images) on servers all around the world.
+We use CDNs to make websites load quickly for people no matter where they are.
+
+3.Why is React known as React?:
+React is named "React" because it's all about how your web application reacts to changes in data. It helps you build user interfaces that update
+and respond to user actions without manually changing the whole webpage.
+
+4.crossorigin in script tag:
+The crossorigin attribute in a script tag is like a security feature. It tells the browser whether a script from a different website (origin) is allowed to be loaded and executed on your webpage.
+
+5.Difference between React and ReactDOM:
+React is like the core of React applications. It's responsible for defining and managing your UI components, handling state, and rendering them.
+ReactDOM is like the bridge between React and the web browser. It helps React to interact with the actual web page by rendering your components onto the HTML DOM.
+
+6.Difference between react.development.js and react.production.js files via CDN:
+react.development.js is for development. It includes helpful error messages and warnings that make it easier to find and fix issues during development.
+react.production.js is for production. It's optimized for performance and doesn't include extra warnings and messages, which makes your website faster but less helpful for debugging.
+
+7.async and defer:
+async: When you add async to a script tag, it tells the browser to download the script while the page continues to load. When the script is ready, it runs, but the order may not be guaranteed.
+defer: When you add defer to a script tag, it also downloads the script while the page loads, but it waits until the page is fully parsed before running the script. The order of execution is maintained.
+I hope these explanations help you understand these concepts better! If you have more questions or need further clarification, feel free to ask.
+
+
+
+
+
