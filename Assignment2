@@ -1,0 +1,90 @@
+# Theory Assignment:
+● - What is `NPM`?
+● - What is `Parcel/Webpack`? Why do we need it?
+● - What is `.parcel-cache`
+● - What is `npx` ?
+● - What is difference between `dependencies` vs `devDependencies`
+● - What is Tree Shaking?
+● - What is Hot Module Replacement?
+● - List down your favourite 5 superpowers of Parcel and describe any 3 of them in your
+own words.
+● - What is `.gitignore`? What should we add and not add into it?
+● - What is the difference between `package.json` and `package-lock.json`
+● - Why should I not modify `package-lock.json`?
+● - What is `node_modules` ? Is it a good idea to push that on git?
+● - What is the `dist` folder?
+● - What is `browserlists`
+Read about dif bundlers: vite, webpack, parcel
+● Read about: ^ - caret and ~ - tilda
+
+
+Answer:   
+
+1.NPM (Node Package Manager):
+NPM is like a big online store for computer code. It's a tool that helps you find and download packages (chunks of code)
+created by other people so you can use them in your own projects.
+
+2.Parcel and Webpack:
+Parcel and Webpack are like special helpers for web developers. They help bundle (package) all your web code neatly so that browsers can understand it. They make your website work smoothly and load quickly.
+
+3..parcel-cache:
+The .parcel-cache is like a storage place for Parcel. It keeps a copy of things Parcel has processed before, 
+so if you need them again, Parcel can use them quickly without redoing the work.
+
+4.npx:
+npx is like a magic command that lets you run software tools without having to install them on your computer. 
+It's like borrowing a tool when you need it and returning it when you're done.
+
+5.dependencies vs. devDependencies:
+
+Dependencies are like essential ingredients for your project. They are packages that your project needs to work properly.
+devDependencies are like tools or helpers for you while you're building the project. They are not needed when your project is running; 
+they're just for development.
+
+6.Tree Shaking:
+Tree shaking is like cleaning out your closet. It's a way to remove unused code from your project, making it smaller and faster to load in the browser.
+
+7.Hot Module Replacement:
+Hot Module Replacement is like magic for developers. It allows you to see changes you make to your code instantly in the browser without
+needing to refresh the whole page.
+
+8.Parcel Superpowers (Three of them):
+
+Blazing Fast: Parcel is super speedy at building your project, so you don't have to wait long.
+Zero Configuration: You don't need to spend time setting up Parcel; it figures out most things on its own.
+Automatic Asset Optimization: Parcel makes your images and other assets load efficiently without you doing extra work.
+
+9.gitignore:
+.gitignore is like a list of things you tell Git (a version control system) to ignore when you're tracking changes to your code. You should add files and folders to it that you don't want to include in your project history, like temporary files or sensitive data.
+
+10.package.json vs. package-lock.json:
+package.json is like a recipe book for your project. It lists what your project needs and how it should work.
+package-lock.json is like a record of the exact versions of ingredients (dependencies) your project uses. It ensures consistency.
+
+11.Why not modify package-lock.json:
+You shouldn't modify package-lock.json manually because it's automatically generated and helps maintain the consistency and reliability of your project's dependencies.
+
+12.node_modules:
+node_modules is like a big storage closet where all the packages (code ingredients) for your project are kept. You don't need to push it 
+to Git because others can use your package.json and package-lock.json to get the same packages.
+
+13.dist folder:
+The dist folder is like a clean, organized version of your project that's ready to be deployed to a website. It contains the optimized code and assets for the web.
+
+14.browserslist:
+.browserslist is like a list you make to tell your development tools which web browsers your project should be compatible with. It helps your tools optimize your code for those browsers.
+
+15.Caret (^) and Tilde (~):
+
+The caret (^) means you're okay with using a newer, backward-compatible version of a package when you run npm install.
+The tilde (~) means you're only okay with getting patches (small updates) for a package, not major changes.
+
+16.Script types in HTML:
+Script types in HTML are like labels that tell the browser what kind of code is inside a <script> tag. Common types include "text/javascript" for regular JavaScript and "module" for modern JavaScript with ES6 features.
+
+
+
+
+
+
+
