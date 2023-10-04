@@ -1,0 +1,68 @@
+Is JSX mandatory for React?
+Is ES6 mandatory for React?
+{TitleComponent} vs {<TitleComponent/>} vs {<TitleComponent></TitleComponent>} in JSX
+How can I write comments in JSX?
+What is <React.Fragment></React.Fragment> and <></> ?
+What is Virtual DOM?
+What is Reconciliation in React?
+What is React Fiber?
+Why we need keys in React? When do we need keys in React?
+Can we use index as keys in React?
+What is props in React? Ways to
+What is a Config Driven UI ?
+
+Answers:
+
+1.Is JSX mandatory for React?
+
+JSX is not mandatory for React, but it's highly recommended and widely used. JSX is a syntax extension for JavaScript that makes it easier to define the structure of React components.
+Without JSX, you can write React code using plain JavaScript, but it becomes less readable and more cumbersome.
+Is ES6 mandatory for React?
+
+2.ES6 (ECMAScript 2015) features are not mandatory for React, but they are commonly used and considered best practices. ES6 provides modern JavaScript features like arrow functions,
+classes, and destructuring, which can make your React code cleaner and more efficient.
+{TitleComponent} vs {<TitleComponent/>} vs {<TitleComponent></TitleComponent>} in JSX
+
+3.All three variations are used to render a React component called TitleComponent:
+{TitleComponent}: This assumes that TitleComponent is a variable that holds a React component, and it renders it without any additional markup.
+{<TitleComponent/>}: This directly renders TitleComponent as a self-closing tag.
+{<TitleComponent></TitleComponent>}: This renders TitleComponent as an opening and closing tag. It's equivalent to the self-closing tag in most cases.
+
+4.How can I write comments in JSX?
+You can write comments in JSX using curly braces and double slashes, like this: {/* This is a JSX comment */}. These comments are not rendered in the final HTML output.
+
+5.What is <React.Fragment></React.Fragment> and <></>?
+<React.Fragment> and <> (empty angle brackets) are used in JSX to group multiple elements without adding an extra HTML element to the DOM.
+They are especially useful when you need to return adjacent JSX elements from a component. <React.Fragment> is the long-form version, and <> is the shorthand for the same purpose.
+
+6.What is Virtual DOM?
+The Virtual DOM is a concept used by React to optimize the rendering of web pages. It's a lightweight in-memory representation of the actual DOM (Document Object Model). 
+React uses it to make efficient updates to the real DOM by minimizing the number of changes and re-renders.
+
+7.What is Reconciliation in React?
+Reconciliation in React is the process of updating the Virtual DOM and making sure it matches the desired component state. 
+React efficiently figures out which parts of the Virtual DOM need to change and applies those changes to the actual DOM.
+
+8.What is React Fiber?
+React Fiber is a set of internal algorithms and data structures in React that allows it to perform more granular and asynchronous updates to the Virtual DOM. 
+It improves the responsiveness and performance of React applications.
+Why we need keys in React? When do we need keys in React?
+
+9.Keys are used in React to help it keep track of individual elements in a list or array of components. They are necessary when you render multiple components dynamically in a loop.
+Keys help React identify which components have changed, added, or removed, optimizing updates.
+
+10.Can we use index as keys in React?
+While you can use index as keys in React, it's generally not recommended unless you're certain that the list's order won't change.
+Using unique and stable keys (like IDs) is a better practice because it helps React correctly identify elements even if the list is modified.
+
+11.What is props in React? Ways to use props in React?
+Props (short for properties) are a way to pass data from a parent component to a child component in React. 
+You can use props to customize the behavior and appearance of child components. You can pass props when rendering a component like this: <MyComponent prop1="value1" prop2="value2" />.
+
+12.What is Config Driven?
+"Config Driven" typically means designing a system or application to be highly configurable through external settings or configuration files. 
+Instead of hardcoding values and behaviors, you provide a configuration that controls how the system works. This approach makes the system more flexible and adaptable to different use cases.
+In React, you can make your components config-driven by passing configuration data via props.
+
+
+
