@@ -1,0 +1,76 @@
+What is the difference between Named Export, Default export and * as export?
+What is the importance of config.js file
+What are React Hooks?
+Why do we need a useState Hook?
+
+ANSWERS:
+
+1. Named Export, Default Export, and * as Export:
+
+Named Export: When you use named exports in JavaScript, you can export multiple variables, functions, or objects from a module by specifying their names. These named exports are explicitly listed and must be imported by name in the importing module.
+javascript
+
+// module.js
+export const variable1 = "Value 1";
+export function func1() { /* ... */ }
+
+// In another file
+import { variable1, func1 } from './module.js';
+
+Default Export: A default export allows you to export a single value as the default export from a module. When importing, you can choose to give it any name you want.
+javascript
+
+// module.js
+const defaultValue = "Default Value";
+export default defaultValue;
+
+// In another file
+import myValue from './module.js';
+
+* as Export (Namespace Import): This syntax allows you to import all named exports from a module as properties of an object. It's useful when a module exports multiple things and you want to access them through a single object.
+javascript
+
+// module.js
+export const var1 = "Value 1";
+export const var2 = "Value 2";
+
+// In another file
+import * as myModule from './module.js';
+console.log(myModule.var1); // "Value 1"
+console.log(myModule.var2); // "Value 2"
+
+
+2. Importance of config.js file:
+
+A config.js file is often used in web development to centralize configuration settings for an application. Its importance lies in the following aspects:
+
+Centralized Configuration: It provides a single location to store various configuration options, such as API keys, database URLs, environment variables, and more. This makes it easier to manage and update configuration settings for the entire application.
+
+Security: Sensitive information like API keys and secret tokens should not be hard-coded in the source code, as it can be a security risk. Instead, they can be stored securely in the config.js file, which can be excluded from version control systems.
+
+Environment-specific Settings: config.js can also store environment-specific settings, allowing you to switch between development, testing, and production configurations easily. This ensures that the application behaves correctly in different environments.
+
+3. React Hooks:
+
+React Hooks are functions that allow you to use state and other React features in functional components. They were introduced in React 16.8 to provide a more concise and readable way to manage component state and side-effects without using class components. Some commonly used React Hooks include useState, useEffect, useContext, and more.
+
+useState Hook:
+
+1. useState is one of the most commonly used React Hooks. It allows functional components to manage state within the component. Here's why it's important:
+
+2. State Management: useState enables you to add state to functional components. State represents data that can change over time and trigger re-renders of the component when it does.
+
+3. No Need for Class Components: Before Hooks, state management was primarily done in class components. With useState, you can manage state in functional components,
+making your code simpler and more in line with modern JavaScript.
+
+4.Immutable Updates: When you use useState, React ensures that you update state immutably, preserving the previous state. This helps prevent bugs related to state mutations.
+
+5. Functional Paradigm: Using useState encourages a functional programming approach, where the state is updated based on the previous state, leading to predictable and maintainable code.
+
+In summary, named and default exports are ways to export values from modules, a config.js file centralizes configuration settings, React Hooks like useState
+allow functional components to manage state, and useState is crucial for adding state to React functional components.
+
+
+
+
+
