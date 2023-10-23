@@ -4,7 +4,7 @@
 
 A microservice is an unique entity that provides a unique service to an application. It can be a database, a server or a UI of the application. These microservices are connected via APIs to make a complete application and are separated from each other as a different application in itself.
 
-**<h1>What is Monolith architecture?<h1>**
+**<h1>What is Monolith architecture?</h1>**
 
 A monolith architecture is a entire application consisting of all the services inside of it. E.g an application which has a UI backend database into a single code base.
 
