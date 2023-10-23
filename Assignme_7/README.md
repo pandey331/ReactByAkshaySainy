@@ -8,7 +8,7 @@ A microservice is an unique entity that provides a unique service to an applicat
 
 A monolith architecture is a entire application consisting of all the services inside of it. E.g an application which has a UI backend database into a single code base.
 
-**<h1>What is the difference between Monolith and Microservice?</h1>**
+**<h2>What is the difference between Monolith and Microservice?</h2>**
 
 **Monolith	Microservice**
 
