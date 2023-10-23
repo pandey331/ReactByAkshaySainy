@@ -5,7 +5,7 @@ Why do we need a useState Hook?
 
 ANSWERS:
 
-1. Named Export, Default Export, and * as Export:
+**1. Named Export, Default Export, and * as Export:**
 
 Named Export: When you use named exports in JavaScript, you can export multiple variables, functions, or objects from a module by specifying their names. These named exports are explicitly listed and must be imported by name in the importing module.
 javascript
