@@ -2,7 +2,7 @@
 
 **<h1>What is a Microservice?</h1>**
 
-<h6>A microservice is an unique entity that provides a unique service to an application. It can be a database, a server or a UI of the application. These microservices are connected via APIs to make a complete application and are separated from each other as a different application in itself.</h6>
+A microservice is an unique entity that provides a unique service to an application. It can be a database, a server or a UI of the application. These microservices are connected via APIs to make a complete application and are separated from each other as a different application in itself.
 
 **<h1>What is Monolith architecture?<h1>**
 
