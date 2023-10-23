@@ -1,5 +1,4 @@
-   
-**2. What is suspense?**
+   **2. What is suspense?**
 Suspence is a component provided by react , it is used to load to add delays when we are performing a dynamic imort in our application.
 
 **3. Why we got this error :**
