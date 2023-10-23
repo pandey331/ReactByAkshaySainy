@@ -6,32 +6,32 @@ A microservice is an unique entity that provides a unique service to an applicat
 
 **<h1>What is Monolith architecture?<h1>**
 
-<h6>A monolith architecture is a entire application consisting of all the services inside of it. E.g an application which has a UI backend database into a single code base.</h6>
+A monolith architecture is a entire application consisting of all the services inside of it. E.g an application which has a UI backend database into a single code base.
 
 **<h1>What is the difference between Monolith and Microservice?</h1>**
 
 **Monolith	Microservice**
 
-<h6>Every service is inside the application	Services are scattered
+Every service is inside the application	Services are scattered
 Single code base	Code base is divided into separated applications
 Hard to maintain	Easy to maintain
-Deployment takes more time	Deployment is easy <h6>
+Deployment takes more time	Deployment is easy 
   
 **<h1>Why do we need a useEffect Hook?</h1>**
 
-<h6>useEffect is a Hook provided by react . This hook is responsible for maintaining the state of the application when anything that triggers this hook changes. The useEffect hook conatins two arguments a callback functin and a dependency array. eg.   useEffect(() => {}, [])
+useEffect is a Hook provided by react . This hook is responsible for maintaining the state of the application when anything that triggers this hook changes. The useEffect hook conatins two arguments a callback functin and a dependency array. eg.   useEffect(() => {}, [])
 
 The () => {} in the function is called a callback function and [] is called a dependency array. If anyhting that we pass inside the [] changes the callback function is triggered and changes the state of the application.
 
-Note: If we do not pass empty dependency array then the useEffect hook only runs when the UI is rendered for the first time. </h6>
+Note: If we do not pass empty dependency array then the useEffect hook only runs when the UI is rendered for the first time. 
 
 **<h1>What is Optional Chaining?</h1>**
 
-<h6>Optional chaning is good way of accessing the object keys, it prevents the application from being crashed if the key that we are trying to access is not present. If the key is not present then instead of a key error, it returns undefined. </h6>
+Optional chaning is good way of accessing the object keys, it prevents the application from being crashed if the key that we are trying to access is not present. If the key is not present then instead of a key error, it returns undefined. 
 
 **<h1>What is Shimmer UI?</h1>**
 
-<h6>Shimmer UI is a great way for loading the applications. Instead of showing a loading circle we can design a shimmer UI for our application that is good for user experience. </h6>
+Shimmer UI is a great way for loading the applications. Instead of showing a loading circle we can design a shimmer UI for our application that is good for user experience. 
 
 **<h1>What is the difference between JS expression and JS statement**</h1>
 
